@@ -78,6 +78,12 @@ body {
     left: 25%;
 }
 
+.projects{
+    height: available;
+    width: 100%;
+    background: #010303;
+}
+
 .footer{
     height: 4em;
     background: #010303;
