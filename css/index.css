@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Anek Malayalam', 'Changa', 'Poppins', sans-serif;
 }
 
 a{
@@ -7,7 +7,7 @@ a{
 }
 .navbar {
     overflow: hidden;
-    background-color: #010303;
+    background-color: #293636;
     width: 100%;
     height: auto;
 }
@@ -27,7 +27,7 @@ a{
 
 .title-Site{
     display: block;
-    font-family: 'Quantico', sans-serif;
+    font-family: 'Anek Malayalam', 'Changa', 'Poppins', sans-serif;
     font-size: 1.5em;
 
 }
@@ -140,7 +140,7 @@ main{
 }
 
 .projects-inside{
-    background: #29626c; !important;
+    background: #293636; !important;
     color: white;
     border-radius: 5px; !important;
     margin-left: 1em; !important;
@@ -149,9 +149,15 @@ main{
     margin-right: 1em; !important;
 }
 
+.projects :hover{
+   background: #293636;
+}
 
 .projects-text{
     text-align: center;
+    padding-bottom: 1em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
 }
 
 ul{
@@ -181,7 +187,58 @@ ul{
 
 }
 
+.skills-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 1.5em;
+}
+
+.aboutMe{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1em;
+    height: auto;
+    width: 80%;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+.contact{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 1em;
+    height: auto;
+    width: 80%;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.contact a{
+    color: white;
+}
+
+.contact a:hover{
+    color: #53c4d9;
+}
+
+#githubText{
+    padding-top: 1em;
+
+}
+
+#github{
+    background: white;
+
+}
+
 .footer{
     height: 4em;
-    background: #53c4d9;
+    background: #293636;
 }
