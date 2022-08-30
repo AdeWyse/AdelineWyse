@@ -279,6 +279,9 @@ ul{
 }
 
 @media screen and (min-width: 480px) and (max-width: 599px) {
+    main{
+        background: red !important;
+    }
     .projects{
         display: flex;
         flex-direction: column;
@@ -333,7 +336,7 @@ ul{
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 889px) {
+@media screen and (min-width: 768px) and (max-width: 899px) {
    .projects{
        display: flex;
        flex-direction: column;
@@ -356,31 +359,65 @@ ul{
     }
 }
 
-@media screen and (min-width: 900px) and (max-width: 1023px) {
+@media screen and (min-width: 900px) and (max-width: 1010px) {
+    .projects{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .project{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
     .projects-img{
         padding-top: 0;
-        width: 11em;
+        width: 32em;
+        height: 12em;
+        border-radius: 7px;
+        margin: 0 5% 5%;
+    }
+}
+
+@media screen and (min-width: 1011px) and (max-width: 1023px) {
+    .projects-img{
+        padding-top: 0;
+        width: 11.5em;
         height: 8em;
         border-radius: 7px;
         margin: 0 5% 5%;
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) and (max-width: 1129px) {
     .projects-img{
         padding-top: 0;
-        width: 14em;
+        width: 12em;
         height: 9em;
         border-radius: 7px;
         margin: 0 5% 5%;
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1280px) {
+@media screen and (min-width: 1130px) and (max-width: 1171px) {
 
     .projects-img{
         padding-top: 0;
-        width: 15em;
+        width: 13em;
+        height: 8em;
+        border-radius: 7px;
+        margin: 0 5% 5%;
+    }
+}
+
+@media screen and (min-width: 1172px) and (max-width: 1200px) {
+
+    .projects-img{
+        padding-top: 0;
+        width: 13em;
         height: 8em;
         border-radius: 7px;
         margin: 0 5% 5%;
