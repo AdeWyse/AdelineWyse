@@ -1,3 +1,14 @@
+
+a .title-link {
+    color: red !important;
+    background: purple !important;
+}
+
+a .title-link:hover {
+    color: red !important;
+    background: purple !important;
+}
+
 body {
     font-family: 'Anek Malayalam', 'Changa', 'Poppins', sans-serif;
 }
@@ -32,6 +43,10 @@ a{
 
 }
 
+.title-Site :hover{
+    cursor:pointer;
+}
+
 .title-Site1{
     color: #53c4d9;
     background-color: white;
@@ -48,6 +63,14 @@ a{
     padding-bottom: 50%;
     padding-top: 50%;
     height: auto;
+}
+
+.title-Site1 :hover{
+    cursor:pointer;
+}
+
+.title-Site2 :hover{
+    cursor:pointer;
 }
 
 .presentation{
@@ -395,6 +418,8 @@ ul{
 
     }
 }
+
+
 
 @media screen and (min-width: 768px) and (max-width: 899px) {
    .projects{
