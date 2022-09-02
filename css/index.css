@@ -207,12 +207,11 @@ ul{
 .aboutMe{
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 1em;
     height: auto;
     width: 80%;
     color: white;
-    padding-top: 2em;
-    padding-bottom: 1em;
+    padding-top: 3em;
+    font-size: large;
 }
 
 .contact{
