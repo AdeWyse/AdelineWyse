@@ -32,3 +32,17 @@ a{
 ul{
     list-style: square;
 }
+
+@media screen  and (max-width: 790px){
+
+    .projectDescription{
+        display: flex;
+        flex-direction: column;
+    }
+    .description{
+        width: 90%;
+    }
+    .projectImages{
+        width: 90%;
+    }
+}
