@@ -1,3 +1,7 @@
+html,body{
+    height: 100%;
+}
+
 .projectDescription{
     color: white;
     width: 90%;
@@ -7,6 +11,7 @@
     padding-bottom: 1em;
     display: flex;
     flex-direction: row;
+    min-height: 90%;
 }
 
 a{
@@ -36,6 +41,8 @@ ul{
 .blankSpace{
     padding-bottom: 15em;
 }
+
+
 
 @media screen  and (max-width: 790px){
 
